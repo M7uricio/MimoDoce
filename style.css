@@ -12,9 +12,19 @@ body{
     background-image:url(./img/Backbord\ Brigadeiros.jfif);
     background-position: center;
     background-size: cover;
-    height: 768px;
+    height:800px;
     width: 500px;
     margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+    .backboard{
+        background-image:url(./img/Backbord\ Brigadeiros.jfif);
+        background-position: center;
+        background-size: cover;
+        height:100%;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 .cabecalho{
