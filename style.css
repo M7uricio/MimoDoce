@@ -18,13 +18,19 @@ body{
 }
 @media screen and (max-width:768px) {
     .backboard{
-        background-image:url(./img/Backbord\ Brigadeiros.jfif);
+        background-image:none;
         background-position: center;
         background-size: cover;
         height:100%;
         margin: 0 auto;
     }
-}
+        body{
+            background-image:url(./img/Backbord\ Brigadeiros.jfif);
+            background-size:auto;
+            height:100%;
+            width: 100%;
+            }
+    }
 
 .cabecalho{
     display: flex;
