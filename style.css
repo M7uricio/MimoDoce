@@ -2,7 +2,8 @@ body{
     background-image:url(./img/Backbord\ Brigadeiros.jfif);
      background-color: #e79eb1;     
      background-position: center;
-    background-size: cover;
+     background-size: cover;
+     height: 100vh;
     }
 
 .container{
