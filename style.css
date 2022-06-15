@@ -1,0 +1,131 @@
+body{
+    background-image: url(./img/fundo-logo.jfif);
+     background-color: #e79eb1;     
+    }
+
+.container{
+    max-width: 521px;
+    margin: 0 auto;
+}
+
+.backboard{
+    background-image:url(./img/Backbord\ Brigadeiros.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 768px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.fotoPerfil img{
+    width: 150px;
+    margin-left: 20px;
+}
+.listaCabecalho{
+    width: 250px;
+    border-radius: 5px;
+}
+.listaCabecalho li p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#ffffff;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.listaCabecalho li img{
+    width: 10px;
+}
+    
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.botoes li{ 
+    margin-bottom: 20px;
+}
+.botoes li a{
+    text-decoration: none;    
+}
+.botoes li a button{
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 70px;
+    background-color: #e79eb1d7;
+    border-bottom: solid 10px;
+    border-right: solid 10px;
+    border-color:#e2406bbd;
+    border-radius: 30px;
+    cursor: pointer;
+    animation-name: tremer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.botoes li a button img{
+    width: 40px;
+    margin-left: 15px;
+}
+.botoes li a button div{
+    display: flex;
+    width: 280px;
+    height: 38px;
+    flex-direction: column;
+}
+.botoes li a button div p{
+    font-weight: 400;
+    color: #ffffff;
+}
+.botoes li a button div span{
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 150px;
+}
+
+
+.botoes li a button:hover{
+    background-color: #e27e98d7;
+}
+@keyframes tremer{
+    35%{
+        transform: rotateZ(0deg);
+    }
+    40%{
+        transform: rotateZ(2deg);
+    }
+    45%{
+        transform: rotateZ(-2deg);
+    }
+    50%{
+        transform: rotateZ(2deg);
+    }
+    55%{
+        transform: rotateZ(-2deg);
+    } 
+    60%{
+        transform: rotateZ(2deg);
+    }
+    65%{
+        transform: rotateZ(-2deg);
+    } 
+    70%{
+        transform: rotateZ(2deg);
+    }
+    75%{
+        transform: rotateZ(0deg);
+    }
+}
