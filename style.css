@@ -3,7 +3,7 @@ body{
      background-color: #e79eb1;     
      background-position: center;
      background-size: cover;
-     height: 900px;
+     height: 880px;
      max-width: inherit;
     }
 
@@ -52,7 +52,7 @@ body{
 .botoes li a button{
     display: flex;
     align-items: center;
-    width: 390px;
+    width: 360px;
     height: 70px;
     background-color: #e79eb1d7;
     border-bottom: solid 10px;
@@ -70,7 +70,7 @@ body{
 }
 .botoes li a button div{
     display: flex;
-    width: 280px;
+    width: 360px;
     height: 38px;
     flex-direction: column;
 }
