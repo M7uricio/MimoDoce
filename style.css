@@ -73,13 +73,16 @@ body{
     width: 360px;
     height: 38px;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 .botoes li a button div p{
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     color: #ffffff;
 }
 .botoes li a button div span{
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     color: #ffffff;
 }
 
